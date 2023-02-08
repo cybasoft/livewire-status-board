@@ -3,6 +3,7 @@
     "description": "Livewire component to show models/data according to its current status",
     "keywords": [
         "asantibanez",
+        "cybasoft"
         "livewire-status-board"
     ],
     "homepage": "https://github.com/cybasoft/livewire-status-board",
@@ -31,12 +32,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Asantibanez\\LivewireStatusBoard\\": "src"
+            "Cybasoft\\LivewireStatusBoard\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Asantibanez\\LivewireStatusBoard\\Tests\\": "tests"
+            "Cybasoft\\LivewireStatusBoard\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -50,10 +51,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Asantibanez\\LivewireStatusBoard\\LivewireStatusBoardServiceProvider"
+                "Cybasoft\\LivewireStatusBoard\\LivewireStatusBoardServiceProvider"
             ],
             "aliases": {
-                "LivewireStatusBoard": "Asantibanez\\LivewireStatusBoard\\LivewireStatusBoardFacade"
+                "LivewireStatusBoard": "Cybasoft\\LivewireStatusBoard\\LivewireStatusBoardFacade"
             }
         }
     }
