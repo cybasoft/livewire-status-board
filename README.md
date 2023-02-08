@@ -4,14 +4,14 @@ Livewire component to show records/data according to their current status
 
 ### Preview
 
-![preview](https://github.com/asantibanez/livewire-status-board/raw/master/preview.gif)
+![preview](https://github.com/cybasoft/livewire-status-board/raw/master/preview.gif)
 
 ### Installation
 
 You can install the package via composer:
 
 ```bash
-composer require asantibanez/livewire-status-board
+composer require cybasoft/livewire-status-board
 ```
 
 ### Requirements
